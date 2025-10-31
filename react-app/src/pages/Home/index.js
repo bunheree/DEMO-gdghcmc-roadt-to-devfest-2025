@@ -27,7 +27,7 @@ export default function Home() {
           padding: (theme) => theme.spacing(3, 2),
         }}
       >
-        <Typography variant="h5">Welcome to the Fancy Store!</Typography>
+        <Typography variant="h5">Welcome to the Demo Store!</Typography>
         <br />
         <Typography variant="body1">
           Take a look at our wide variety of products.

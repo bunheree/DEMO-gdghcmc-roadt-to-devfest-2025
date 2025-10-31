@@ -27,12 +27,12 @@ export default function Home() {
           padding: (theme) => theme.spacing(3, 2),
         }}
       >
-        <Typography variant="h5">Fancy Fashion &amp; Style Online</Typography>
+        <Typography variant="h5">Demo Fashion &amp; Style Online</Typography>
         <br />
         <Typography variant="body1">
           Tired of mainstream fashion ideas, popular trends and societal norms?
-          This line of lifestyle products will help you catch up with the Fancy
-          trend and express your personal style. Start shopping Fancy items now!
+          This line of lifestyle products will help you catch up with the Demo
+          trend and express your personal style. Start shopping Demo items now!
         </Typography>
       </Paper>
     </Box>
