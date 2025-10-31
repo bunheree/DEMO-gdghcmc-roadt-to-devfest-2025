@@ -1,17 +1,13 @@
-# Monolith to Microservices
+# DEMO-gdghcmc-roadt-to-devfest-2025
 
-## NOTE: This is not an officially supported Google product
-
-## Introduction
-
-### This project is used by the Google Cloud Platform team to demonstrate different services within Google Cloud. This project contains two versions of the same application, one architected as a monolith and the other as a set of microservices
+Monolith to Microservices
 
 ## Setup
 
-### **NOTE:** Make sure you have a newer version of NodeJS (16.13.0) or newer (in Cloud Shell you can run `nvm install --lts`)
+### **Note:** Make sure you have a newer version of NodeJS (16.13.0) or newer (in Cloud Shell you can run `nvm install --lts`)
 
 ```bash
-git clone https://github.com/googlecodelabs/monolith-to-microservices
+git clone https://github.com/bunheree/DEMO-gdghcmc-roadt-to-devfest-2025
 cd monolith-to-microservices
 ./setup.sh
 ```
@@ -107,10 +103,15 @@ docker stop d85756f57265
 
 ## React App
 
-### The react-app folder contains a React application created from `create-react-app`. You can modify this fronted, but afterwards, you will need to build and move the static files to the monolith and microservices project. You can do this by running the standard create-react-app build command below
+The react-app folder contains a React application created from `create-react-app`. You can modify this fronted, but afterwards, you will need to build and move the static files to the monolith and microservices project. You can do this by running the standard create-react-app build command below
 
 ```bash
 npm run build
 ```
 
-#### This will run the build script to create the static files two times. The first will build with relative URLs and copy the static files to the monolith/public folder. The second run will build with the standard microservices URLs and copy the static files to the microservices/src/frontend/public folder
+**This will run the build script to create the static files two times. The first will build with relative URLs and copy the static files to the monolith/public folder. The second run will build with the standard microservices URLs and copy the static files to the microservices/src/frontend/public folder**
+
+---------------
+### Notes
+* This is not an officially supported Google product
+  * This project is used by the Google Cloud Platform team to demonstrate different services within Google Cloud. This project contains two versions of the same application, one architected as a monolith and the other as a set of microservices 
